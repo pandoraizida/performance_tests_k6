@@ -4,8 +4,8 @@ const stages_smoke = [
 ];
 
 const stages_load = [
-    { duration: '1m', target: 10 }, // simulate ramp-up of traffic from 1 to 30 users over 2 minutes.
-    { duration: '2m', target: 10 }, // stay at 30 users for 2 minutes
+    { duration: '1m', target: 30 }, // simulate ramp-up of traffic from 1 to 30 users over 2 minutes.
+    { duration: '2m', target: 30 }, // stay at 30 users for 2 minutes
     { duration: '1m', target: 0 }, // ramp-down to 0 users
 ];
 
